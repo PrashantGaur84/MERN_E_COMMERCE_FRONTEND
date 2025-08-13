@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import AppContext from '../context/AppContext'
-import TableProduct from './tableProduct';
+import TableProduct from './TableProduct';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
 
