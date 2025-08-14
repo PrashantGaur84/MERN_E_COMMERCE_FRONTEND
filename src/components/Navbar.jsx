@@ -73,11 +73,11 @@ const Navbar = () => {
                         <div className="items" onClick={() => filterbyCategory("laptops")}>Laptops</div>
                         <div className="items" onClick={() => filterbyCategory("cameras")}>Camera's</div>
                         <div className="items" onClick={() => filterbyCategory("headphones")}>Headphones</div>
-                        <div className="items" onClick={() => filterbyPrice(15999)}>15999</div>
-                        <div className="items" onClick={() => filterbyPrice(25999)}>25999</div>
-                        <div className="items" onClick={() => filterbyPrice(49999)}>49999</div>
-                        <div className="items" onClick={() => filterbyPrice(69999)}>69999</div>
-                        <div className="items" onClick={() => filterbyPrice(89999)}>89999</div>
+                        <div className="items" onClick={() => filterbyPrice(1000)}>1000</div>
+                        <div className="items" onClick={() => filterbyPrice(2000)}>2000</div>
+                        <div className="items" onClick={() => filterbyPrice(3000)}>3000</div>
+                        <div className="items" onClick={() => filterbyPrice(4000)}>4000</div>
+                        <div className="items" onClick={() => filterbyPrice(5000)}>5000</div>
                     </div>
                 )}
             </div>
