@@ -92,9 +92,11 @@ const AppState = (props) => {
             theme: "dark",
             transition: Bounce,
         });
-        setToken(api.data.token);
-        setIsAuthenticated(true);
-        localStorage.setItem("token", api.data.token);
+        if(api.data.success){
+            setToken(api.data.token);
+            setIsAuthenticated(true);
+            localStorage.setItem("token", api.data.token);
+        }
         return api.data;
     }
 
