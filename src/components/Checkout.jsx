@@ -43,7 +43,7 @@ const Checkout = () => {
                 "key": "rzp_test_sOni8EtS9TgUUO", // Enter the Key ID generated from the Dashboard
                 "amount": orderAmount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
                 "currency": "INR",
-                "name": "Web Dev Mastery",
+                "name": "Prashant Gaur",
                 "description": "Test Transaction",
                 "order_id": orderId, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
                 "handler": async function (response) {
