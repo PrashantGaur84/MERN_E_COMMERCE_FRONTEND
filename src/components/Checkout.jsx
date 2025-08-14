@@ -68,12 +68,12 @@ const Checkout = () => {
                     }
                 },
                 "prefill": {
-                    "name": "Web Dev Mastery",
-                    "email": "webdevmastery@gmail.com",
-                    "contact": "9000090000"
+                    "name": "Prashant Gaur ",
+                    "email": "prashanty@gmail.com",
+                    "contact": "9999999999"
                 },
                 "notes": {
-                    "address": "Vijay Nagar Indore"
+                    "address": "Kanpur Nagar"
                 },
                 "theme": {
                     "color": "#3399cc"
